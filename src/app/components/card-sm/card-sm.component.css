@@ -1,0 +1,48 @@
+.card-sm { 
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.card-sm-data { 
+    width: 570px;
+    height: 68px;
+
+    background-color: #fdfdfd;
+    border: 1px solid #f88730;
+
+    border-radius: 20px;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    -webkit-box-shadow: 15px 15px 0px 0px rgba(248,135,48,1);
+    -moz-box-shadow: 15px 15px 0px 0px rgba(248,135,48,1);
+    box-shadow: 15px 15px 0px 0px rgba(248,135,48,1);
+}
+
+
+.btn-text { 
+    color: #6B7C8E;
+    font-family: concert One;
+    font-size: 32px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    width: 70%;
+}
+
+i { 
+    margin-left: 30px;
+    color: #f88730;
+    font-size: 40px;
+}
+
+.textCard { 
+    width: 100%;
+
+}

@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+* { 
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+}
+
+a { 
+    text-decoration: none;
+}
+
+hr { 
+    border: 2px solid #F78536; 
+}
+
+.flex-center { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container { 
+    padding-top: 120px; 
+}

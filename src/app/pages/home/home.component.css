@@ -1,0 +1,28 @@
+
+.subTitle { 
+    padding-top: 40px;
+}
+
+
+.article-content { 
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.article-content-data { 
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 70%;
+    height: 60vh;
+}
+
+.article-btns { 
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}

@@ -1,0 +1,41 @@
+header { 
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+
+    background-color: #fdfdfd;
+
+}
+
+.header-data { 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    height: 120px;
+}
+
+.logo { 
+    color: #F88730;
+    font-family: Bangers, cursive;
+    font-size: 96px;
+    font-weight: 400;
+    letter-spacing: 1.92px;
+
+    -webkit-text-stroke: 2px #000;
+
+    margin-bottom: 8px;
+}
+
+h2 a  { 
+    color: #F78536;
+    font-family:  concert One;
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    -webkit-text-stroke: 1px #000;
+
+
+}
+

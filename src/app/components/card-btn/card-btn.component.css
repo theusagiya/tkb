@@ -1,0 +1,52 @@
+.card-btn { 
+    text-align: center;
+    margin: 20px;
+}
+
+:host .card-btn-data[typeBtn = "color-one"] { 
+    width: 150px;
+    height: 158px;
+
+    background-color: #fdfdfd;
+    border: 1px solid #f88730;
+
+    border-radius: 20px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-box-shadow: 15px 15px 0px 0px rgba(248,135,48,1);
+    -moz-box-shadow: 15px 15px 0px 0px rgba(248,135,48,1);
+    box-shadow: 15px 15px 0px 0px rgba(248,135,48,1);
+}
+
+:host .card-btn-data[typeBtn = "color-two"] { 
+    width: 150px;
+    height: 158px;
+
+    background-color: #fdfdfd;
+    border: 1px solid #f7d76f;
+
+    border-radius: 20px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-box-shadow: 15px 15px 0px 0px #f7d76f;
+    -moz-box-shadow: 15px 15px 0px 0px #f7d76f;
+    box-shadow: 15px 15px 0px 0px #f7d76f;
+}
+
+
+.btn-text { 
+    color: #6B7C8E;
+    font-family: concert One;
+    font-size: 32px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+}

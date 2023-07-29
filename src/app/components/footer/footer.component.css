@@ -1,0 +1,19 @@
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-description { 
+    padding-top: 8px;
+}
+
+.footer-description h4 a{ 
+    margin-right: 35px ;
+
+    color: #DBC8AA;
+    font-family: concert One;
+    font-size: 20px;
+    font-weight: 400;
+}

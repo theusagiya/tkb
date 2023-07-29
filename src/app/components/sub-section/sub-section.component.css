@@ -1,0 +1,50 @@
+
+.sub-data { 
+    padding: 10px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+:host .sub-text[typeText = "larger" ] { 
+    color: #6B7C8E;
+    font-family: Bangers;
+    font-size: 96px;
+    font-weight: 400;
+    letter-spacing: 6.24px;
+}
+
+:host .sub-text[typeText = "litle" ] { 
+    color: #6B7C8E;
+    font-family: Bangers;
+    font-size: 66px;
+    font-weight: 400;
+    letter-spacing: 6.24px;
+}
+
+
+
+:host .sub-bars[typeTextBars = "larger" ] { 
+    width: 996px;
+    height: 40px;
+    border-radius: 5px;
+    background: #FBA351;
+
+    position: absolute;
+    z-index: -1;
+    
+}
+
+:host .sub-bars[typeTextBars = "litle" ] { 
+    width: 490px;
+    height: 20px;
+    border-radius: 5px;
+    background: #FBA351;
+
+    position: absolute;
+    z-index: -1;
+    
+}

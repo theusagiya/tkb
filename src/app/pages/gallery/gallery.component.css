@@ -1,0 +1,16 @@
+.subTitle { 
+    display: flex; 
+    align-items: flex-end;
+
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+
+.gallery-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(8, 6vw); */
+    grid-gap: 15px;
+}
