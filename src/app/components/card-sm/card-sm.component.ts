@@ -8,5 +8,6 @@ import { Component, Input } from '@angular/core';
 export class CardSmComponent {
   @Input() text!: string; 
   @Input() Rlink!: string; 
+  @Input() Elink!: string; 
   @Input() icon!: string; 
 }

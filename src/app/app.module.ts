@@ -14,6 +14,8 @@ import { SocialMediaComponent } from './pages/social-media/social-media.componen
 import { BackArrowComponent } from './components/back-arrow/back-arrow.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { CardImgComponent } from './components/card-img/card-img.component';
+import { FooterIconComponent } from './components/footer-icon/footer-icon.component';
+import { GalleryLightboxComponent } from './components/gallery-lightbox/gallery-lightbox.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { CardImgComponent } from './components/card-img/card-img.component';
     SocialMediaComponent, 
     BackArrowComponent, 
     GalleryComponent,
-    CardImgComponent
+    CardImgComponent, 
+    FooterIconComponent, 
+    GalleryLightboxComponent
   ],
   imports: [
     BrowserModule, 

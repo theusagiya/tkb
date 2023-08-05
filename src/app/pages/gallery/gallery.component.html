@@ -9,15 +9,12 @@
 
     <article class="article-content flex-center">
         <div class="gallery-content">
-            <app-card-img /> 
-            <app-card-img /> 
-            <app-card-img /> 
-            <app-card-img /> 
-            <app-card-img /> 
-            <app-card-img /> 
-            <app-card-img /> 
-            <app-card-img /> 
-            <app-card-img />    
+           <app-gallery-lightbox
+            [galleryData]="data"
+            [showCount]="true"
+           >
+           </app-gallery-lightbox>
+            
         </div>
     </article>
 </main>

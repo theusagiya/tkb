@@ -1,12 +1,12 @@
 .card-sm { 
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 
 
 .card-sm-data { 
-    width: 570px;
+    width: 470px;
     height: 68px;
 
     background-color: #fdfdfd;
@@ -18,10 +18,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+/* 
     -webkit-box-shadow: 15px 15px 0px 0px rgba(248,135,48,1);
     -moz-box-shadow: 15px 15px 0px 0px rgba(248,135,48,1);
-    box-shadow: 15px 15px 0px 0px rgba(248,135,48,1);
+    box-shadow: 15px 15px 0px 0px rgba(248,135,48,1); */
+
+	animation: shadow-color 0.4s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+
 }
 
 
@@ -33,7 +36,6 @@
 
     text-transform: uppercase;
 
-    width: 70%;
 }
 
 i { 
@@ -45,4 +47,38 @@ i {
 .textCard { 
     width: 100%;
 
+}
+
+/* ANIMATION */
+
+@keyframes shadow-color {
+    0% {
+      box-shadow: 0 0 #f88730, 0 0 #f88730, 0 0 #f88730, 0 0 #f88730, 0 0 #f88730, 0 0 #f88730, 0 0 #f88730, 0 0 #f88730;
+      transform: translateX(0) translateY(0);
+    }
+    100% {
+      box-shadow: 3px 3px #f88730, 4px 4px #f88730, 5px 5px #f88730, 6px 6px #f88730, 7px 7px #f88730, 8px 8px #f88730, 9px 9px #f88730, 10px 10px #f88730;
+      transform: translateX(-8px) translateY(-8px);
+    }
+}
+
+  
+:hover .card-sm-data   { 
+    border: 2px solid #000;
+    animation: shadow-hover 0.4s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+}
+
+@keyframes shadow-hover {
+    0% {
+      box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000, 7px 7px #000, 8px 8px #000;
+      transform: translateX(0) translateY(0);
+    }
+    100% {
+      box-shadow: 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000, 7px 7px #000, 8px 8px #000, 9px 9px #000, 10px 10px #000;
+      transform: translateX(-8px) translateY(-8px);
+    }
+  }
+
+  :hover i { 
+    color: #000000;
 }

@@ -6,6 +6,8 @@ header {
 
     background-color: #fdfdfd;
 
+    z-index: 1;
+
 }
 
 .header-data { 

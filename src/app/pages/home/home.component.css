@@ -26,3 +26,8 @@
     justify-content: space-evenly;
     width: 50%;
 }
+
+ iframe { 
+    height: 300px;
+    border: none;
+ }
