@@ -1,6 +1,6 @@
 
 .subTitle { 
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 
@@ -31,3 +31,38 @@
     height: 300px;
     border: none;
  }
+
+ @media screen and (max-width: 1024px) {
+    iframe {
+        display: none;
+    }
+
+    .article-content-data { 
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+    }
+
+ }
+ 
+ @media screen and (max-width: 800px) {
+    iframe {
+        display: none;
+    }
+
+    .article-btns {
+        flex-direction: column;
+    }
+ }
+ 
+ @media screen and (max-width: 650px) {
+    iframe {
+        display: none;
+    }
+
+    .article-btns {
+        flex-direction: column;
+    }
+     
+ }
+ 

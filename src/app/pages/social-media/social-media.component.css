@@ -2,6 +2,7 @@
     margin-top: 20px; 
 }
 
+
 .article-content { 
      display: flex;
      flex-direction: column;
@@ -86,3 +87,49 @@
     opacity: 1;
   }
 }
+
+
+/* RESPONSIVE SECTION */
+
+
+@media screen and (max-width: 1024px) {
+        .container { 
+                height: 95vh;
+        }
+
+        .footer-icon { 
+                width: 10%;
+        }
+        
+}
+    
+@media screen and (max-width: 800px) {
+        .container { 
+                height: 95vh;
+        }
+        .footer-icon { 
+                width: 10%;
+        }
+        
+}
+    
+
+@media screen and (max-width: 600px) {
+
+        .footer-icon { 
+                width: 30% !important;
+        }
+        
+        
+}
+
+
+@media screen and (max-width: 800px) {
+
+        .footer-icon { 
+                width: 20%;
+        }
+        
+        
+}
+  

@@ -1,19 +1,23 @@
-footer {
-    width: 100%;
+:host footer[typeFooter = "footer-one"] {
+    width: 100%; 
+    height: 20px;
     position: fixed;
     bottom: 0;
     left: 0;
 }
 
-.footer-description { 
-    padding-top: 8px;
+:host footer[typeFooter = "footer-two"] {
+    position: initial; 
+    margin-top: 20px ;
 }
+
+
 
 .footer-description h4 a{ 
     margin-right: 35px ;
 
     color: #DBC8AA;
     font-family: concert One;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
 }

@@ -95,3 +95,33 @@
       transform: translateX(-8px) translateY(-8px);
     }
   }
+
+
+
+  /* REPONSIVE SECTION */
+
+  @media screen and (max-width: 1024px) {
+    .card-btn-data[typeBtn = "color-one"], 
+    .card-btn-data[typeBtn = "color-two"] {
+      width: 180px !important;
+      height: 180px !important;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .card-btn-data[typeBtn = "color-one"], 
+    .card-btn-data[typeBtn = "color-two"] {
+        width: 180px !important;
+        height: 180px !important;
+      }
+  
+  }
+  
+  @media screen and (max-width: 650px) {
+      .card-btn-data[typeBtn = "color-one"], 
+      .card-btn-data[typeBtn = "color-two"] {
+        width: 180px !important;
+        height: 180px !important;
+      }
+  }
+  

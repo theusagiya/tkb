@@ -12,23 +12,16 @@
 :host .sub-text[typeText = "larger" ] { 
     color: #6B7C8E;
     font-family: Bangers;
-    font-size: 96px;
+    font-size: 86px;
     font-weight: 400;
     letter-spacing: 6.24px;
 }
 
-:host .sub-text[typeText = "litle" ] { 
-    color: #6B7C8E;
-    font-family: Bangers;
-    font-size: 66px;
-    font-weight: 400;
-    letter-spacing: 6.24px;
-}
 
 
 
 :host .sub-bars[typeTextBars = "larger" ] { 
-    width: 996px;
+    width: 936px;
     height: 40px;
     border-radius: 5px;
     background: #FBA351;
@@ -47,4 +40,60 @@
     position: absolute;
     z-index: -1;
     
+}
+
+:host .sub-text[typeText = "litle" ] { 
+    color: #6B7C8E;
+    font-family: Bangers;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 6.24px;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .sub-text[typeText = "larger" ] {
+        font-size: 65px !important; 
+
+    }
+
+    .sub-bars[typeTextBars = "larger" ] {
+        width: 709px !important;
+        height: 32px !important;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .sub-text[typeText = "larger" ], 
+    .sub-text[typeText = "litle" ] {
+        font-size: 55px !important; 
+
+    }
+
+    .sub-bars[typeTextBars = "larger" ], 
+    .sub-bars[typeTextBars = "litle" ]{
+        width: 609px !important;
+        height: 28px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+ 
+    .sub-text[typeText = "larger" ], 
+    .sub-text[typeText = "litle" ] {
+        font-size: 35px !important; 
+        letter-spacing: 2px !important;
+
+
+    }
+
+    .sub-bars[typeTextBars = "larger" ], 
+    .sub-bars[typeTextBars = "litle" ] {
+        width: 350px !important;
+        height: 17px !important;
+    }
 }
